@@ -20,41 +20,41 @@ public class Ticket implements Comparable<Ticket> {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getCost() {
-        return cost;
-    }
-
-    public void setCost(int cost) {
-        this.cost = cost;
-    }
+//    public void setId(int id) {
+//        this.id = id;
+//    }
+//
+//    public int getCost() {
+//        return cost;
+//    }
+//
+//    public void setCost(int cost) {
+//        this.cost = cost;
+//    }
 
     public String getFrom() {
         return from;
     }
 
-    public void setFrom(String from) {
-        this.from = from;
-    }
+//    public void setFrom(String from) {
+//        this.from = from;
+//    }
 
     public String getTo() {
         return to;
     }
 
-    public void setTo(String to) {
-        this.to = to;
-    }
-
-    public int getDuring() {
-        return during;
-    }
-
-    public void setDuring(int during) {
-        this.during = during;
-    }
+//    public void setTo(String to) {
+//        this.to = to;
+//    }
+//
+//    public int getDuring() {
+//        return during;
+//    }
+//
+//    public void setDuring(int during) {
+//        this.during = during;
+//    }
 
     @Override
     public int compareTo(Ticket otherTicket) {
